@@ -1,0 +1,11 @@
+.wrapper {
+  height: 100vh;
+}
+header, .wrapper {
+  background-color: #363636;
+}
+
+
+.nav-row {
+  background-color: #292929;
+}
