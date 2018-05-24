@@ -9,3 +9,10 @@ header, .wrapper {
 .nav-row {
   background-color: #292929;
 }
+
+
+.inspiration, .the-stuff, .now {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: canada-type-gibson, sans-serif;
+}
