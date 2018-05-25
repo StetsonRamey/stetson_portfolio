@@ -9,6 +9,9 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
   <!-- Style Sheets -->
   <link rel="stylesheet" href="assets/css/style.css">
 
@@ -23,25 +26,26 @@
       </div>
     </header>
     <section class="main-content">
-      <div class="container">
-        <div class="row">
+      <div class="container-fluid">
+        <div class="row align-items-center">
           <div class="col-9">
             <h2 class="inspiration text-right">parents inspiration for the name</h2>
           </div>
           <div class="col-3">
-            <img src="assets/images/cowboy-hat.png" alt="" class="hat">
+            <img src="assets/images/cowboy-hat.png" alt="hat" class="hat">
           </div>
         </div>
         <div class="row">
           <div class="col-9">
             <h1 class="the-stuff text-right">
-              engineer<br>
-              entrepreneur<br>
-              learner<br>
-              doer
+              engineer.<br>
+              web dev.<br>
+              entrepreneur.<br>
+              learner.<br>
+              doer.
             </h1>
           </div>
-          <div class="col-3">
+          <div class="col-3 d-flex align-items-end">
             <h1 class="now">
               <a href="/portfolio">see what i'm up to now</a>
             </h1>
@@ -50,25 +54,27 @@
       </div>
     </section>
 
-    <footer>
-      <div class="container-fluid">
-        <div class="row nav-row">
-          <div class="col">
-            <ul class="social">
-              <li class="icon">#</li>
-              <li class="icon">#</li>
-              <li class="icon">#</li>
-            </ul>
-          </div>
-          <div class="col">
-            <ul class="base-nav">
-              <li class="item">Home</li>
-              <li class="item">Now</li>
-              <li class="item">Contact</li>
-            </ul>
+    <footer class="container-fluid">
+      <nav class="navbar fixed-bottom">
+        <div class="container-fluid h-100 px-0">
+          <div class="row nav-row h-100 align-items-center">
+            <div class="col m-0 p-0">
+              <ul class="social pl-5">
+                <li class="icon"><i class="fab fa-github-square"></i></li>
+                <li class="icon"><i class="fab fa-stack-overflow"></i></li>
+                <li class="icon"><i class="fab fa-linkedin"></i></li>
+              </ul>
+            </div>
+            <div class="col m-0 p-0">
+              <ul class="base-nav pl-5">
+                <li class="item">Home</li>
+                <li class="item">Now</li>
+                <li class="item">Contact</li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
+      </nav>
     </footer>
   </div>
 

@@ -16,3 +16,73 @@ header, .wrapper {
   color: #fff;
   font-family: canada-type-gibson, sans-serif;
 }
+.inspiration {
+
+}
+.hat {
+  height: 100px;
+  width: auto;
+}
+
+.now a {
+  text-decoration: underline;
+  color: #fff;
+  font-family: canada-type-gibson, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+
+
+
+
+
+
+
+/* FOOTER STYLES */
+
+footer {
+  height: 100px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  color: #fff;
+  font-family: canada-type-gibson, sans-serif;
+  font-size: 28px;
+  text-transform: capitalize;
+  display: inline;
+}
+
+footer .row {
+  width: 100%;
+  margin-left: 1px;
+}
+
+.base-nav li {
+  padding: 0 2%;
+  color: #333333;
+}
+.base-nav li:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+footer .navbar {
+  padding: 0;
+}
+
+.fixed-bottom {
+  height: 100px;
+}
+
+.icon {
+  padding: .5em;
+}
+
+/* END FOOTER STYLES */
